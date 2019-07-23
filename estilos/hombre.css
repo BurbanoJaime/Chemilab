@@ -1,0 +1,57 @@
+header {
+  background: linear-gradient(164.01deg, #5B87DA 2.61%, #3F3D9D 88.73%);
+  padding: 20px 50px;
+  position: relative;
+  width: 100%;
+  min-width: 375px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .header__logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("../img/header_background.png");
+  background-repeat: no-repeat;
+}
+
+header .header__image {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 4px 40px rgba(62, 97, 162, 0.5);
+          box-shadow: 0px 4px 40px rgba(62, 97, 162, 0.5);
+  border-radius: 50%;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  position: absolute;
+  right: 50px;
+  bottom: -50%;
+}
+
+header figure {
+  max-width: 140px;
+}
+
+header figure img {
+  width: 100%;
+}
+
+.wrapper__header {
+  color: #5B87DA;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=hombre.css.map */

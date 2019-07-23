@@ -1,0 +1,60 @@
+
+
+header {
+    background: linear-gradient(164.01deg, #5B87DA 2.61%, #3F3D9D 88.73%);
+    padding: 20px 50px;
+    position: relative;
+    width: 100%;
+    min-width: 375px;
+    box-sizing: border-box;
+
+    .header__logo {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-image: url('../img/header_background.png');
+        background-repeat: no-repeat;
+    }
+
+    .header__image {
+        width: 130px;
+        height: 130px;
+        background-color: white;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px rgba(62, 97, 162, 0.5);
+        border-radius: 50%;
+        transform: scale(1.5);
+        transition: all .4s;
+        position: absolute;
+        right: 50px;
+        bottom: -50%;
+    }
+
+    figure {
+        max-width: 140px;
+
+        img {
+            width: 100%;
+            ;
+        }
+    }
+
+
+}
+
+.wrapper{
+    &__header{
+        color: #5B87DA;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header{
+        padding: 20px;
+
+    }
+}
